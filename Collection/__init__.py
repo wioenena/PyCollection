@@ -1,1 +1,1 @@
-from .Collection import Collection
+import Collection
