@@ -1,9 +1,5 @@
-import os
-import sys
+import sys, os
 
-sys.path[0] = f"..{os.path.sep}"
+sys.path[0] = os.getcwd()
 
-
-a = 3
-
-print(f"\\{a}")
+from Collection.Collection import Collection
